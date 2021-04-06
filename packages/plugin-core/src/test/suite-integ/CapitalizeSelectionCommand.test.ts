@@ -61,7 +61,6 @@ suite("CapitalizeSelectionCommand", function () {
         ))!;
 
         const SIMPLE_SELECTION = new vscode.Selection(7, 0, 7, 11);
-        // editor.selection = SIMPLE_SELECTION;
 
         await new CapitalizeSelectionCommand().execute();
 
